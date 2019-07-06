@@ -11,7 +11,7 @@ phases:
     - apt-get update -y
     - apt-get install -y maven
     runtime-versions:
-       java: 8
+       java: openjdk8
   build:
     commands:
     - echo building the justiceleague-tracker
