@@ -10,6 +10,8 @@ phases:
     - echo installing maven...
     - apt-get update -y
     - apt-get install -y maven
+    runtime-versions:
+       java: 8
   build:
     commands:
     - echo building the justiceleague-tracker
